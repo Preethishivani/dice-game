@@ -95,10 +95,10 @@ btnHold.addEventListener('click',()=>{
 
 
 btnAgain.addEventListener('click',()=>{
-  let currentScore = 0;
-  let activePlayer = 1;
-  let scores = [0,0,0];
-  let extra = undefined;
+  currentScore = 0;
+  activePlayer = 1;
+  scores = [0,0,0];
+  extra = undefined;
 
   currentScoreOne.textContent = 0;
   currentScoreTwo.textContent = 0;
